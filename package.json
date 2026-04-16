@@ -6,9 +6,10 @@
   "author": "",
   "main": "server.js",
   "type": "module",
-  "scripts": {
-    "server": "nodemon server.js"
-  },
+ "scripts": {
+  "start": "node server.js",
+  "server": "nodemon server.js"
+},
   "dependencies": {
     "@paystack/inline-js": "^2.22.7",
     "axios": "^1.12.2",
